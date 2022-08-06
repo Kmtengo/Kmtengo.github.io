@@ -1,0 +1,77 @@
+#title {
+    margin: auto;
+    width: 30%;
+    color: steelblue;
+}
+
+#titlebody {
+    margin: auto;
+    width: 90%;
+}
+
+body {
+    background-image: url("Images/MUCClogo.jpg");
+    background-repeat: no-repeat;
+    background-size: 1560px 950px;
+    background-color: dodgerblue;
+    color: mintcream;
+}
+
+#button {
+    margin: auto;
+    width: 30%;
+}
+
+#gif {
+    margin: auto;
+    width: 70%;
+    padding-top: 10px;
+
+}
+
+#link {
+    margin: auto;
+    width: 30%;
+}
+
+.socialicons {
+    display: flex;
+    margin-top: 50px;
+}
+.socialicons .icon{
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.05);
+    margin: 0 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    text-decoration: none;
+    color: hotpink;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer {
+    margin: auto;
+    width: 60%;
+}
+
+a:after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background: linear-gradient(to bottom, rgb(158, 0, 231), rgb(57,1,211));
+    transition: 0.2s;
+}
+.socialicons .icon:hover {
+    color: #FFFFFF;
+}
+a:hover::after {
+    bottom: 0;
+}
