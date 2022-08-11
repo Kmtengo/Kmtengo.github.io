@@ -1,6 +1,6 @@
 #title {
     margin: auto;
-    width: 30%;
+    width: 40%;
     color: steelblue;
 }
 
@@ -11,8 +11,10 @@
 
 body {
     background-image: url("Images/MUCClogo.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 1560px 950px;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: dodgerblue;
     color: mintcream;
 }
