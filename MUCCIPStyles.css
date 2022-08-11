@@ -20,8 +20,7 @@ body {
 }
 
 #button {
-    margin: auto;
-    width: 30%;
+
 }
 
 #gif {
@@ -57,7 +56,7 @@ body {
 
 #footer {
     margin: auto;
-    width: 100%;
+    width: 50%;
 }
 
 a:after {
