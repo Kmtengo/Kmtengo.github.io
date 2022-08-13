@@ -19,10 +19,6 @@ body {
     color: mintcream;
 }
 
-#button {
-
-}
-
 #gif {
     margin: auto;
     width: 70%;
@@ -32,7 +28,7 @@ body {
 
 #link {
     margin: auto;
-    width: 60%;
+    width: 30%;
 }
 
 .socialicons {
