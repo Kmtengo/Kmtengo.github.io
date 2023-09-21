@@ -1,0 +1,40 @@
+.faqs a {
+    color: transparent;
+    background-color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.faqs a:hover {
+    color: black;
+}
+.card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
+    background-color: aquamarine;
+  }
+  
+  .card:hover .card-img-overlay {
+    opacity: 5;
+}
+
+.grid {
+    display: grid;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+.sm\:grid-cols-2 {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+#map {
+    height: 100%;
+  }
+  
