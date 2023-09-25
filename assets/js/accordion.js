@@ -3,7 +3,7 @@ let map;
 
 async function initMap() {
   // The location of Machakos University
-  const position = { lat: 1.5309, lng: 37.2628 };
+  const position = { lat: -1.5309, lng: 37.2628 };
   // Request needed libraries.
   //@ts-ignore
   const { Map } = await google.maps.importLibrary("maps");
