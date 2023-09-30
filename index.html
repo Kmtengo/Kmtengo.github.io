@@ -386,19 +386,165 @@
             </div>
         </div>
     </section>
-    <section class="text-center download-section content-section" id="schedule" style="background-image:url('assets/img/downloads-bg.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="container px-4 py-5" id="featured-3">
-                    <br><br><br>
+    
+
+                   <!--
                     <h1 style="margin-bottom: 150px;">SCHEDULE</h1>
                     <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                         <P>TO BE ANNOUNCED SOON</P>
                     </div>
+                    //-->
+
+                    <!--Schedule Code-->
+                    
+                    <div class="schedule-section">
+
+                    <div class="container-G">
+                        <h1>Schedule</h1>
+                        <!--<h2>All times in EAT</h2>-->
+                        <div>
+                            <button class="day-button" id="day1">Wed, Nov 15th</button>
+                            <button class="day-button" id="day2">Thu, Nov 16th</button>
+                            <button class="day-button" id="day3">Fri, Nov 17th</button>
+                        </div>
+                        <table class="schedule-table" id="schedule">
+                            <thead>
+                                <tr>
+                                    <!--
+                                    <th>Day</th>
+                                    //-->
+                                    <th>Time</th>
+                                    <th>Activity</th>
+                                    <th>Venue</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Day 1 Schedule -->
+                                <tr class="day day1">
+                                    <!--
+                                    <td rowspan="8">Wed, Nov 15th</td>
+                                    //-->
+                                    <td>8-9AM</td>
+                                    <td>Arrivals and Check-In</td>
+                                    <td>Amphitheater</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>9-10AM</td>
+                                    <td>Opening Ceremony, Official Inauguration of the MksU Hackfest</td>
+                                    <td>Amphitheater</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>10-11AM</td>
+                                    <td>Introductions: Speeches from faculty Members, Sponsors, recognized guests etc.</td>
+                                    <td>Amphitheater</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>11:30-12:30PM</td>
+                                    <td>Keynote Speakers</td>
+                                    <td>Amphitheater</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>12:30-2PM</td>
+                                    <td>Lunch Break</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>2-2:30PM</td>
+                                    <td>Team Formation</td>
+                                    <td>Amphitheater</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>2:30-4:30PM</td>
+                                    <td>Break-Out Sessions: To be unveiled soon</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day1">
+                                    <td>4:30-5PM</td>
+                                    <td>Vote of Thanks</td>
+                                    <td>Amphitheater</td>
+                                </tr>
+                                <!-- Day 2 Schedule -->
+                                <tr class="day day2" style="display: none;">
+                                    <!--
+                                    <td rowspan="8">Thu, Nov 16th</td>
+                                    //-->
+                                    <td>7:30-8:30AM</td>
+                                    <td>Check-In of Participants for the hackathon</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>8:30-9:30AM</td>
+                                    <td>Briefing, Hacking commences</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>9:30AM-1PM</td>
+                                    <td>Hackers crafting solutions</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>1:00PM</td>
+                                    <td>Lunch</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>5:00PM</td>
+                                    <td>Snacks</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>9:00PM</td>
+                                    <td>Dinner</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>1:00AM</td>
+                                    <td>Snacks</td>
+                                    <td>Basement</td>
+                                </tr>
+                                
+                                <!-- Day 3 Schedule -->
+                                <tr class="day day3" style="display: none;">
+                                    <!--
+                                    <td rowspan="8">Fri, Nov 17th</td>
+                                    //-->
+                                    <td>7-7:30AM</td>
+                                    <td>Breakfast</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day3" style="display: none;">
+                                    <td>11-11:15AM</td>
+                                    <td>Deadline for Submissions</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day3" style="display: none;">
+                                    <td>11:30AM-1PM</td>
+                                    <td>Judging Commences<br>Hackers allowed to go and refresh<br>Various games ongoing</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day3" style="display: none;">
+                                    <td>1-2PM</td>
+                                    <td>Lunch</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day3" style="display: none;">
+                                    <td>2-3PM</td>
+                                    <td>Judges Comments<br>Awarding<br>Pricing</td>
+                                    <td>Amphitheater*</td>
+                                </tr>
+                                <tr class="day day3" style="display: none;">
+                                    <td>3-4PM</td>
+                                    <td>Closing remarks from involved stakeholders</td>
+                                    <td>Amphitheater*</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+
+
+            
     <section class="text-center download-section content-section" id="faqs" style="background-image:url('assets/img/downloads-bg.jpg');">
         <div class="container">
             <div class="col-lg-8 mx-auto">
@@ -673,6 +819,10 @@
     <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@mui/material@5.0.3/dist/mui.min.js"></script>
+
+    <!-- Schedule-->
+    <script src="script.js"></script>
+
 </body>
 
 </html>
