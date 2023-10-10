@@ -1,0 +1,48 @@
+.custom-team-section {
+  padding: 60px 0;
+  overflow: hidden;
+  position: relative;
+}
+.custom-team-member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+}
+.custom-member-img {
+  position: relative;
+  overflow: hidden;
+}
+.custom-member-info {
+  color: #000;
+  padding: 2px 1px;
+}
+.custom-member-info h4 {
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-size: 25px;
+  color: #000;
+}
+.custom-member-info span {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #565656;
+}
+.custom-section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+.custom-section-title h2 {
+  font-size: 52px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.custom-row {
+  text-align: center;
+  text-decoration: underline;
+}
