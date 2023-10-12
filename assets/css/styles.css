@@ -58,24 +58,43 @@ td {
   padding: 20px;
   background-color: #000;
 }
-.day-button {
+.custom-day-button {
   cursor: pointer;
   background-color: #333;
   color: #fff;
   border: none;
   padding: 10px 20px;
   margin-right: 10px;
+  white-space: nowrap;
+}
+.day-buttons-container {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-between; */
+  max-width: 100%;
+  margin: 0 auto;
 }
 @media screen and (max-width: 600px) {
   .schedule-table {
-    font-size: 14px;
+    font-size: 15px;
+  }
+  .day-buttons-container {
+    flex-direction: row;
+  }
+  .custom-day-button {
+    flex: 0 0 auto;
+    width: 110px;
+    font-size: 12px;
   }
 }
+
 th {
   background-color: #333;
   color: #fff;
 }
-
+h1 {
+  text-align: center;
+}
 
 /*
 .custom-team-section {

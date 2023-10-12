@@ -509,10 +509,10 @@
                     <div class="container-G">
                         <h1>Schedule</h1>
                         <!--<h2>All times in EAT</h2>-->
-                        <div>
-                            <button class="day-button" id="day1">Wed, Nov 15th</button>
-                            <button class="day-button" id="day2">Thu, Nov 16th</button>
-                            <button class="day-button" id="day3">Fri, Nov 17th</button>
+                        <div class="day-buttons-container">
+                            <button class="day-button custom-day-button" id="day1">Wed, Nov 15th</button>
+                            <button class="day-button custom-day-button" id="day2">Thu, Nov 16th</button>
+                            <button class="day-button custom-day-button" id="day3">Fri, Nov 17th</button>
                         </div>
                         <table class="schedule-table" id="schedule">
                             <thead>
@@ -537,11 +537,11 @@
                                 </tr>
                                 <tr class="day day1">
                                     <td>9-10AM</td>
-                                    <td>Opening Ceremony, Official Inauguration of the MksU Hackfest</td>
+                                    <td>Opening Ceremony <br> Official Inauguration of the MksU Hackfest</td>
                                     <td>Amphitheater</td>
                                 </tr>
                                 <tr class="day day1">
-                                    <td>10-11AM</td>
+                                    <td>10-11.30AM</td>
                                     <td>Introductions: Speeches from faculty Members, Sponsors, recognized guests etc.</td>
                                     <td>Amphitheater</td>
                                 </tr>
@@ -556,18 +556,18 @@
                                     <td>TBD</td>
                                 </tr>
                                 <tr class="day day1">
-                                    <td>2-2:30PM</td>
-                                    <td>Team Formation</td>
+                                    <td>2-3PM</td>
+                                    <td>Panel discussion with experienced cooperate experts</td>
                                     <td>Amphitheater</td>
                                 </tr>
                                 <tr class="day day1">
-                                    <td>2:30-4:30PM</td>
+                                    <td>3-4:40PM</td>
                                     <td>Break-Out Sessions: To be unveiled soon</td>
                                     <td>TBD</td>
                                 </tr>
                                 <tr class="day day1">
-                                    <td>4:30-5PM</td>
-                                    <td>Vote of Thanks</td>
+                                    <td>4:40-5PM</td>
+                                    <td>Vote of Thanks, <br> Photo sessions</td>
                                     <td>Amphitheater</td>
                                 </tr>
                                 <!-- Day 2 Schedule -->
@@ -576,36 +576,41 @@
                                     <td rowspan="8">Thu, Nov 16th</td>
                                     //-->
                                     <td>7:30-8:30AM</td>
-                                    <td>Check-In of Participants for the hackathon</td>
+                                    <td>Check-In of Participants for the Hackfest</td>
                                     <td>Basement</td>
                                 </tr>
                                 <tr class="day day2" style="display: none;">
                                     <td>8:30-9:30AM</td>
-                                    <td>Briefing, Hacking commences</td>
+                                    <td>Briefing, <br> Team formation</td>
                                     <td>Basement</td>
                                 </tr>
                                 <tr class="day day2" style="display: none;">
-                                    <td>9:30AM-1PM</td>
-                                    <td>Hackers crafting solutions</td>
+                                    <td>9:30AM</td>
+                                    <td>Hacking commences</td>
                                     <td>Basement</td>
                                 </tr>
                                 <tr class="day day2" style="display: none;">
-                                    <td>1:00PM</td>
+                                    <td>9.30AM-1PM</td>
+                                    <td>Hackers craft solutions</td>
+                                    <td>TBD</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>At 1PM</td>
                                     <td>Lunch</td>
-                                    <td>TBD</td>
-                                </tr>
-                                <tr class="day day2" style="display: none;">
-                                    <td>5:00PM</td>
-                                    <td>Snacks</td>
                                     <td>Basement</td>
                                 </tr>
                                 <tr class="day day2" style="display: none;">
-                                    <td>9:00PM</td>
-                                    <td>Dinner</td>
+                                    <td>At 5PM</td>
+                                    <td>Snacks</td>
                                     <td>TBD</td>
                                 </tr>
                                 <tr class="day day2" style="display: none;">
-                                    <td>1:00AM</td>
+                                    <td>At 9PM</td>
+                                    <td>Dinner</td>
+                                    <td>Basement</td>
+                                </tr>
+                                <tr class="day day2" style="display: none;">
+                                    <td>At 1AM</td>
                                     <td>Snacks</td>
                                     <td>Basement</td>
                                 </tr>
@@ -620,13 +625,13 @@
                                     <td>TBD</td>
                                 </tr>
                                 <tr class="day day3" style="display: none;">
-                                    <td>11-11:15AM</td>
+                                    <td>11:15AM</td>
                                     <td>Deadline for Submissions</td>
                                     <td>Basement</td>
                                 </tr>
                                 <tr class="day day3" style="display: none;">
                                     <td>11:30AM-1PM</td>
-                                    <td>Judging Commences<br>Hackers allowed to go and refresh<br>Various games ongoing</td>
+                                    <td>Judging Commences,<br>Hackers refresh,<br>Various games ongoing</td>
                                     <td>Basement</td>
                                 </tr>
                                 <tr class="day day3" style="display: none;">
@@ -636,12 +641,12 @@
                                 </tr>
                                 <tr class="day day3" style="display: none;">
                                     <td>2-3PM</td>
-                                    <td>Judges Comments<br>Awarding<br>Pricing</td>
+                                    <td>Judges Comments,<br>Awarding,<br>Pricing</td>
                                     <td>Amphitheater*</td>
                                 </tr>
                                 <tr class="day day3" style="display: none;">
-                                    <td>3-4PM</td>
-                                    <td>Closing remarks from involved stakeholders</td>
+                                    <td>3-5PM</td>
+                                    <td>Closing remarks from involved stakeholders, <br> Photosessions</td>
                                     <td>Amphitheater*</td>
                                 </tr>
                                 
