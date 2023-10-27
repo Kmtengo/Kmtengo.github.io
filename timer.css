@@ -16,7 +16,7 @@
   text-align: center;
 }
 .container-T p {
-  font-size: 40px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   max-width: 550px;
@@ -25,7 +25,7 @@
 }
 .container-T .time-content {
   display: flex;
-  column-gap: 60px;
+  column-gap: 30px;
   align-items: center;
 }
 .time-content .time {
@@ -48,12 +48,17 @@
   font: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .number p {
-  font-size: 70px;
+  font-size: 60px;
   font: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media screen and (max-width: 300px) {
-  .container header {
+@media screen and (max-width: 600px) {
+  .container-T h4 {
     font-size: 50px;
   }
+  .time .number,
+.time .text {
+  font-size: 2px;
+}
+  
 }
