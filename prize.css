@@ -1,0 +1,90 @@
+/* Style the prize card container */
+.prize-card {
+    text-align: center;
+    background-color: #13b3ac; /* Background color */
+    padding: 20px;
+    border: 1px solid #000; /* Border color */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 3D effect */
+  }
+  
+  /* Style the prize title */
+  .prize-card h3 {
+    font-size: 24px;
+    color: #fff; /* Text color */
+  }
+  
+  /* Style the prize image */
+  .prize-card img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #017371; /* Border color */
+    
+  }
+  
+  /* Style the prize amount */
+  .prize-card p {
+    font-size: 20px;
+    color: #fff; /* Text color for the prize amount */
+  }
+  /* Hover effect for prize cards */
+  .prize-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly increase the box shadow on hover */
+  }
+  
+  /* Animate prize card entry on page load */
+  .prize-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .prize-card:nth-child(1) {
+    /* 1st Prize card */
+    animation: slide-in 0.5s ease forwards 0.2s;
+  }
+  
+  .prize-card:nth-child(2) {
+    /* 2nd Prize card */
+    animation: slide-in 0.5s ease forwards 0.4s;
+  }
+  
+  .prize-card:nth-child(3) {
+    /* 3rd Prize card */
+    animation: slide-in 0.5s ease forwards 0.6s;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Add this CSS code to your existing styles.css */
+  .pulsate {
+    animation: pulsate 1s infinite;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

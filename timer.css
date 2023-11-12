@@ -45,6 +45,7 @@
 }
 .time .text {
   text-transform: capitalize;
+  color: #fff;
   font-size: 25px;
   font-family: Cabin, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
